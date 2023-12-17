@@ -1,7 +1,7 @@
-export default function Search(){
+export default function Signup(){
     return(
         <div>
-            Search
+            SignupS
         </div>
     );
 }
