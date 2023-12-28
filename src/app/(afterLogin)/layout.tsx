@@ -3,6 +3,7 @@ import styles from '@/app/(afterLogin)/layout.module.css'
 import Link from "next/link";
 import Image from "next/image";
 import ZLogo from '../../../public/zlogo.png'
+import NavMenu from "./_component/NavMenu";
 
 export default function AfterLoginLayout ({children}:{children:ReactNode}){
     return(
@@ -15,6 +16,9 @@ export default function AfterLoginLayout ({children}:{children:ReactNode}){
                                     <Image src={ZLogo} alt='z.com로고' width={40} height={40}/>
                                 </div>
                             </Link>
+                            <nav>
+                                <NavMenu/>    
+                            </nav>
                         </div>
                     </section>
                 </header>
