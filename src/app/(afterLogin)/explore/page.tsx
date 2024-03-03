@@ -1,7 +1,11 @@
+import SearchForm from "../_component/SearchForm";
+
 export default function Explore(){
     return(
-        <div>
-            Explore
-        </div>
+        <main>
+            <div>
+                <SearchForm/>
+            </div>
+        </main>
     );
 }
